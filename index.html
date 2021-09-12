@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get data by name</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/sctipts/getData.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Get random data by your name</h1>
+    </div>
+    <div id="search-parent" class="search-form-parent">
+        <form id="form">
+            <input id="search-field" type="text" name="search" placeholder="Search...">
+            <input type='button' id="search-btn" onclick="getData(search.value)" value='Search' />
+        </form>
+    </div>
+
+    <div class="data-table">
+        <table id="tblId">
+        </table>
+    </div>
+
+</body>
+
+</html>

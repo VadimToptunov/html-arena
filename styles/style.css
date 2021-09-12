@@ -1,0 +1,71 @@
+body{
+    background:black;
+  }
+
+h1{
+  font-size: 70;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, fantasy;
+  color:red;
+  text-align:center;
+  margin-top: 250px;
+}
+
+#form {
+    display: flex;
+	justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+}
+
+#search-field{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10em;
+    width: 300px;
+    height: 50px;
+}
+
+#search-field:hover{
+    border: -30px solid;
+    border-color: red green blue;
+    box-shadow: 0 0 -10px;
+}
+
+#search-btn {
+    border-radius: 30em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#search-btn:focus{
+    background-color:green;
+}
+
+#search-btn:hover{
+    border-color: darkolivegreen;
+}
+
+table {
+	justify-content: center;
+    width: 50%;
+    height: 10%;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+td {
+    background-color: white;
+    border: solid 2px white;
+    padding: 2px 3px;
+    text-align: center;
+    display: table-cell;
+
+}
+
+tbody{
+    width: 50%;
+    height: 10%;
+}
